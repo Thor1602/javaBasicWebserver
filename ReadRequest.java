@@ -7,6 +7,9 @@ import java.util.*;
 /**
  * A basic webserver that reads and send files to the browser
  * and shows error pages in case something went wrong.
+ *
+ * @Author Thorben Dhaenens
+ * @Author lab 12 from Eck, https://math.hws.edu/eck/cs225/f16/lab11/index.html
  */
 public class ReadRequest {
     private static class ConnectionThread extends Thread {
